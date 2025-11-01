@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #0a0a0a, #000);
+  color: #f0f0f0;
+  text-align: center;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #5f00ff, #00d9ff);
+  padding: 25px 10px;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 5px;
+}
+
+main {
+  padding: 10px 15px;
+}
+
+section {
+  background: #111;
+  margin: 15px auto;
+  padding: 18px;
+  border-radius: 12px;
+  max-width: 700px;
+  box-shadow: 0 0 8px #222;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+a {
+  color: #4ea1ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 25px;
+  background: #5f00ff;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #5f00ff70;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #00d9ff;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00d9ff80;
+}
+
+footer {
+  background: #0a0a0a;
+  padding: 12px;
+  font-size: 0.9em;
+  color: #888;
+  border-top: 1px solid #222;
+}
